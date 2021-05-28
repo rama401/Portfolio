@@ -26,16 +26,28 @@ h4											{font-size:16px;}
 h5											{font-size:14px;}
 h6											{font-size:12px;}
 /*----------------------------------------------------------------------------------*/
-html 										{}
 body										{color:#b1b1b1; -webkit-text-size-adjust:100%;font-family: 'Roboto Slab', serif; font-size:16px;}
-.flt_lt										{float:left; display:inline;}
-.flt_rt										{float:right; display:inline;}
 /* ---------------------------------------------------------------------------------*/
 
 
 /* ----------------------- layout ----------*/
 .wrapper									{margin:0 auto;}
 .container									{ margin:0 auto; }
+.btn{
+    color: #fff;
+    background-color: transparent;
+    padding: 13px 24px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+.btn-primary{
+    background-color: #d4af37;
+    border-color: #d4af37;
+}
+
 /*-------------------------------------------*/
 
 /* ------------------------- NAVIGATION HERE ---------------*/
@@ -107,6 +119,8 @@ nav ul li a:hover{
 .banner_cnt h1{
     font-size: 60px;
     font-weight: 400;
+    margin-bottom: 80px;
+    line-height: 50px;
 }
 .banner_cnt i{
     font-style: normal;
